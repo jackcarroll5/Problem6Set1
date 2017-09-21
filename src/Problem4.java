@@ -23,10 +23,12 @@ public class Problem4 {
         lastName = input.nextLine();
 
         fullName = firstName + " " + midName + " " + lastName;
+        int finalSpace =  fullName.lastIndexOf(' ');
+        lastName = fullName.substring(finalSpace);
 
        System.out.println("\nThe number of characters in the name: " + fullName.length() +
        "\nInitial of first name: " + fullName.charAt(0)  + "\nName as capital letters: " + fullName.toUpperCase() +
-       " \nSurname on its own: " + fullName.lastIndexOf(lastName));
+       " \nSurname on its own: " + lastName);
 
     }
 }
