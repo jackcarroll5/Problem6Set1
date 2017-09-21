@@ -4,6 +4,8 @@ import java.util.Scanner;
  * Created by T00194823 on 19/09/2017.
  */
 
+//This program will allow a user to input their first name,midname and last name
+
 public class Problem4 {
     public static void main(String[] args) {
      String firstName,midName,lastName,fullName;
