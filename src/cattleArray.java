@@ -22,9 +22,10 @@ public class cattleArray {
 
     public static float lightestWeight(double[] number, double lightest) {
 
-        for (int i = 1; i < number.length; i++)
-            if (number[i] < lightest)
+        for (int i = 1; i < number.length; i++) {
+            if (number[i] <= lightest)
                 lightest = number[i];
+        }
 
        return (float) lightest;
     }

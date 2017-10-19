@@ -25,7 +25,7 @@ public class Problem7 {
 
     public static boolean isEven(int value)
     {
-        boolean valid = false;
+        boolean valid;
 
         if(value % 2 == 0)
          valid = true;

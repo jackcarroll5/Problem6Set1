@@ -20,9 +20,9 @@ public class Problem9 {
         }
 
                 JOptionPane.showMessageDialog(null, text + "\nNumber under 250kg: " + cattleArray.noUnder250(number,under250) + "\nPercentage over 400kg " +
-                                cattleArray.over400Percent(number,over400) / number.length * 100 +
-                       "\nLightest animal: " + cattleArray.lightestWeight(number,lightest) + "\nAverage weight: " +
-                       cattleArray.totalNo(number,total) / number.length,
+                                cattleArray.over400Percent(number,over400) / number.length * 100 + "%" +
+                       "\nLightest animal: " + cattleArray.lightestWeight(number,lightest) + "kg" + "\nAverage weight: " +
+                       cattleArray.totalNo(number,total) / number.length + "kg",
                "Cattle Converter",JOptionPane.INFORMATION_MESSAGE);
 
        System.exit(0);

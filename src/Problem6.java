@@ -21,7 +21,6 @@ public class Problem6 {
        }
     }
 
-
     public static int cube(int i)
     {
         int cube = 1;
